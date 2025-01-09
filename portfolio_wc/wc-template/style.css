@@ -1,0 +1,65 @@
+/*
+
+Theme Name:     moje wc
+Author:         UniqSoft
+Author URI:     http://uniqsoft.pl
+Template:     	storefront
+
+*/
+
+body{
+}
+header .col-full {
+    display: flex;
+    margin-right: 0px;
+}
+.site-header {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px 20px; 
+    background-color: #f8f8f8; 
+}
+
+.logo_header {
+    max-height: 50px; 
+    margin-right: auto; 
+}
+
+.storefront-primary-navigation {
+    flex-grow: 1; 
+}
+
+#menu-menu {
+    display: flex; 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    gap: 20px; 
+}
+
+#menu-menu li a {
+    text-decoration: none; 
+    font-size: 16px; 
+    color: #000; 
+    font-weight: bold; 
+}
+
+.site-header-cart {
+    display: flex; 
+    align-items: center; 
+    margin-left: auto; 
+}
+
+.woocommerce-active .site-header .site-header-cart {
+    width: auto !important;
+}
+
+.cart_contents {
+    text-decoration: none; 
+    font-size: 16px; 
+    color: #000; 
+    display: flex; 
+    align-items: center;
+    gap: 5px;
+}
